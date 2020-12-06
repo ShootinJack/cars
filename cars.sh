@@ -2,14 +2,14 @@
 # cars.sh
 #Tavid Terzian
 
-while[ "$Selc" != 3 ]
+while [ "$Selc" != 3 ]
 do
 	echo "1) New Car"
 	echo "2) Displat Cars"
 	echo "3) Quit"
 	echo "Enter Selection: "
 	read -r Selc
-	case "$Selc" in
+	 case "$Selc" in
 		"1")
 			echo "Enter car's make: "
 			read -r make
@@ -22,7 +22,7 @@ do
 		"2")
 			sort My_old_cars;;
 		"3")
-			echo "Goodbye! Happy driving!"
+			echo "Goodbye! Happy driving!";;
 			*) "Invalid entry. Enter 1,2,or3";;
 		esac
 	done
