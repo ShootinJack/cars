@@ -2,7 +2,7 @@
 # cars.sh
 #Tavid Terzian
 
-while["$Selc" != 3]
+while[ "$Selc" != 3 ]
 do
 	echo "1) New Car"
 	echo "2) Displat Cars"
@@ -23,6 +23,6 @@ do
 			sort My_old_cars;;
 		"3")
 			echo "Goodbye! Happy driving!"
-			*)"Invalid entry. Enter 1,2,or3";;
+			*) "Invalid entry. Enter 1,2,or3";;
 		esac
 	done
