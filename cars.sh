@@ -17,7 +17,7 @@ do
 			read -r model
 			echo "Enter car's year: "
 			read -r year
-			combine = "$year:$make:$model"
+			combine="$year:$make:$model"
 			echo "$combine" >> My_old_cars.txt;;
 		"2")
 			sort My_old_cars;;
