@@ -1,3 +1,6 @@
+Tavid Terzian
+CPSC 298
+
 # Application Purpose
 
 This repo will contain a bash script named “cars.sh” that will help a user maintain an inventory of old cars.  
